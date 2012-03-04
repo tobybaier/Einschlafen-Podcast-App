@@ -10,8 +10,14 @@
 
 @class EPDetailViewController;
 
-@interface EPMasterViewController : UITableViewController
+@interface EPMasterViewController : UITableViewController { 
+    NSMutableArray *_allEntries;
+    NSOperationQueue *_queue;
+}
 
+@property (retain) NSMutableArray *allEntries;
+@property (retain) NSOperationQueue *queue;
 @property (strong, nonatomic) EPDetailViewController *detailViewController;
+
 
 @end

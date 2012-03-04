@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RSSEntry.h"
 
 @interface EPDetailViewController : UIViewController <UISplitViewControllerDelegate>
 
 @property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) RSSEntry *entry;
 
 @property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 
