@@ -9,7 +9,25 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFiles</key>
-	<array/>
+	<array>
+		<string>einschlafen-podcast_logo-57px.png</string>
+		<string>einschlafen-podcast_logo-114px.png</string>
+		<string>einschlafen-podcast_logo-72px.png</string>
+	</array>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>einschlafen-podcast_logo-57px.png</string>
+				<string>einschlafen-podcast_logo-114px.png</string>
+				<string>einschlafen-podcast_logo-72px.png</string>
+			</array>
+			<key>UIPrerenderedIcon</key>
+			<false/>
+		</dict>
+	</dict>
 	<key>CFBundleIdentifier</key>
 	<string>einschlafenpodcast.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>

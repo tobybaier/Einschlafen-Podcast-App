@@ -40,7 +40,7 @@
 {
     // Update the user interface for the detail item.
 
-    if (self.detailItem) {
+    if (self.entry) {
         self.detailDescriptionLabel.text = [self.entry articleTitle];
     }
 }

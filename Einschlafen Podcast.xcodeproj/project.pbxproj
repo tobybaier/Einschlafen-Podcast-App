@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32B7E95715056DBA00589599 /* einschlafen-podcast_logo-57px.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B7E95615056DBA00589599 /* einschlafen-podcast_logo-57px.png */; };
+		32B7E95A15056DC000589599 /* einschlafen-podcast_logo-114px.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B7E95915056DC000589599 /* einschlafen-podcast_logo-114px.png */; };
+		32B7E95C15056DEF00589599 /* einschlafen-podcast_logo-72px.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B7E95B15056DEF00589599 /* einschlafen-podcast_logo-72px.png */; };
+		32C62A391502A61B0025BC1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C62A381502A61B0025BC1F /* UIKit.framework */; };
+		32C62A3B1502A61B0025BC1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C62A3A1502A61B0025BC1F /* Foundation.framework */; };
+		32C62A3D1502A61B0025BC1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C62A3C1502A61B0025BC1F /* CoreGraphics.framework */; };
+		32C62A431502A61C0025BC1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32C62A411502A61C0025BC1F /* InfoPlist.strings */; };
+		32C62A451502A61C0025BC1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C62A441502A61C0025BC1F /* main.m */; };
+		32C62A491502A61C0025BC1F /* EPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C62A481502A61C0025BC1F /* EPAppDelegate.m */; };
+		32C62A4C1502A61C0025BC1F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C62A4A1502A61C0025BC1F /* MainStoryboard_iPhone.storyboard */; };
+		32C62A4F1502A61C0025BC1F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C62A4D1502A61C0025BC1F /* MainStoryboard_iPad.storyboard */; };
+		32C62A521502A61C0025BC1F /* EPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C62A511502A61C0025BC1F /* EPMasterViewController.m */; };
+		32C62A551502A61C0025BC1F /* EPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C62A541502A61C0025BC1F /* EPDetailViewController.m */; };
+		32C62A5D1502A61C0025BC1F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C62A5C1502A61C0025BC1F /* SenTestingKit.framework */; };
+		32C62A5E1502A61C0025BC1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C62A381502A61B0025BC1F /* UIKit.framework */; };
+		32C62A5F1502A61C0025BC1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C62A3A1502A61B0025BC1F /* Foundation.framework */; };
+		32C62A671502A61C0025BC1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32C62A651502A61C0025BC1F /* InfoPlist.strings */; };
+		32C62A6A1502A61C0025BC1F /* EinschlafenPodcastAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C62A691502A61C0025BC1F /* EinschlafenPodcastAppTests.m */; };
+		32C62A751502A6720025BC1F /* RSSEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C62A741502A6720025BC1F /* RSSEntry.m */; };
+		32C62A8F1502B12B0025BC1F /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C62A7A1502B12B0025BC1F /* ASIAuthenticationDialog.m */; };
+		32C62A901502B12B0025BC1F /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C62A7D1502B12B0025BC1F /* ASIDataCompressor.m */; };
+		32C62A911502B12B0025BC1F /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C62A7F1502B12B0025BC1F /* ASIDataDecompressor.m */; };
+		32C62A921502B12B0025BC1F /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C62A811502B12B0025BC1F /* ASIDownloadCache.m */; };
+		32C62A931502B12B0025BC1F /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C62A831502B12B0025BC1F /* ASIFormDataRequest.m */; };
+		32C62A941502B12B0025BC1F /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C62A851502B12B0025BC1F /* ASIHTTPRequest.m */; };
+		32C62A951502B12B0025BC1F /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C62A891502B12B0025BC1F /* ASIInputStream.m */; };
+		32C62A961502B12B0025BC1F /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C62A8B1502B12B0025BC1F /* ASINetworkQueue.m */; };
+		32C62A971502B12B0025BC1F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C62A8E1502B12B0025BC1F /* Reachability.m */; };
+		32C62A991502B3390025BC1F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C62A981502B3390025BC1F /* CFNetwork.framework */; };
+		32C62A9B1502B34D0025BC1F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C62A9A1502B34D0025BC1F /* SystemConfiguration.framework */; };
+		32C62A9D1502B3570025BC1F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C62A9C1502B3570025BC1F /* MobileCoreServices.framework */; };
+		32C62A9F1502B3680025BC1F /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C62A9E1502B3680025BC1F /* libz.1.2.5.dylib */; };
+		32C62AA31502B7A60025BC1F /* GDataXmlNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C62AA21502B7A60025BC1F /* GDataXmlNode.m */; };
+		32C62AA61502B9360025BC1F /* GDataXMLElement-Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C62AA51502B9360025BC1F /* GDataXMLElement-Extras.m */; };
+		32C62AA91502BDAC0025BC1F /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C62AA81502BDAC0025BC1F /* NSDate+InternetDateTime.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32C62A601502A61C0025BC1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32C62A2B1502A61B0025BC1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32C62A331502A61B0025BC1F;
+			remoteInfo = EinschlafenPodcastApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32B7E95615056DBA00589599 /* einschlafen-podcast_logo-57px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "einschlafen-podcast_logo-57px.png"; sourceTree = "<group>"; };
+		32B7E95915056DC000589599 /* einschlafen-podcast_logo-114px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "einschlafen-podcast_logo-114px.png"; sourceTree = "<group>"; };
+		32B7E95B15056DEF00589599 /* einschlafen-podcast_logo-72px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "einschlafen-podcast_logo-72px.png"; sourceTree = "<group>"; };
+		32C62A341502A61B0025BC1F /* EinschlafenPodcastApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EinschlafenPodcastApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C62A381502A61B0025BC1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32C62A3A1502A61B0025BC1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32C62A3C1502A61B0025BC1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		32C62A401502A61C0025BC1F /* EinschlafenPodcastApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EinschlafenPodcastApp-Info.plist"; sourceTree = "<group>"; };
+		32C62A421502A61C0025BC1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32C62A441502A61C0025BC1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32C62A461502A61C0025BC1F /* EinschlafenPodcastApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EinschlafenPodcastApp-Prefix.pch"; sourceTree = "<group>"; };
+		32C62A471502A61C0025BC1F /* EPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPAppDelegate.h; sourceTree = "<group>"; };
+		32C62A481502A61C0025BC1F /* EPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPAppDelegate.m; sourceTree = "<group>"; };
+		32C62A4B1502A61C0025BC1F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		32C62A4E1502A61C0025BC1F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		32C62A501502A61C0025BC1F /* EPMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPMasterViewController.h; sourceTree = "<group>"; };
+		32C62A511502A61C0025BC1F /* EPMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPMasterViewController.m; sourceTree = "<group>"; };
+		32C62A531502A61C0025BC1F /* EPDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPDetailViewController.h; sourceTree = "<group>"; };
+		32C62A541502A61C0025BC1F /* EPDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPDetailViewController.m; sourceTree = "<group>"; };
+		32C62A5B1502A61C0025BC1F /* EinschlafenPodcastAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EinschlafenPodcastAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C62A5C1502A61C0025BC1F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		32C62A641502A61C0025BC1F /* EinschlafenPodcastAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EinschlafenPodcastAppTests-Info.plist"; sourceTree = "<group>"; };
+		32C62A661502A61C0025BC1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32C62A681502A61C0025BC1F /* EinschlafenPodcastAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EinschlafenPodcastAppTests.h; sourceTree = "<group>"; };
+		32C62A691502A61C0025BC1F /* EinschlafenPodcastAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EinschlafenPodcastAppTests.m; sourceTree = "<group>"; };
+		32C62A731502A6720025BC1F /* RSSEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSEntry.h; sourceTree = "<group>"; };
+		32C62A741502A6720025BC1F /* RSSEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSEntry.m; sourceTree = "<group>"; };
+		32C62A791502B12B0025BC1F /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIAuthenticationDialog.h; path = ASI/ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		32C62A7A1502B12B0025BC1F /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIAuthenticationDialog.m; path = ASI/ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		32C62A7B1502B12B0025BC1F /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASICacheDelegate.h; path = ASI/ASICacheDelegate.h; sourceTree = "<group>"; };
+		32C62A7C1502B12B0025BC1F /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDataCompressor.h; path = ASI/ASIDataCompressor.h; sourceTree = "<group>"; };
+		32C62A7D1502B12B0025BC1F /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDataCompressor.m; path = ASI/ASIDataCompressor.m; sourceTree = "<group>"; };
+		32C62A7E1502B12B0025BC1F /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDataDecompressor.h; path = ASI/ASIDataDecompressor.h; sourceTree = "<group>"; };
+		32C62A7F1502B12B0025BC1F /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDataDecompressor.m; path = ASI/ASIDataDecompressor.m; sourceTree = "<group>"; };
+		32C62A801502B12B0025BC1F /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDownloadCache.h; path = ASI/ASIDownloadCache.h; sourceTree = "<group>"; };
+		32C62A811502B12B0025BC1F /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDownloadCache.m; path = ASI/ASIDownloadCache.m; sourceTree = "<group>"; };
+		32C62A821502B12B0025BC1F /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIFormDataRequest.h; path = ASI/ASIFormDataRequest.h; sourceTree = "<group>"; };
+		32C62A831502B12B0025BC1F /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIFormDataRequest.m; path = ASI/ASIFormDataRequest.m; sourceTree = "<group>"; };
+		32C62A841502B12B0025BC1F /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequest.h; path = ASI/ASIHTTPRequest.h; sourceTree = "<group>"; };
+		32C62A851502B12B0025BC1F /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIHTTPRequest.m; path = ASI/ASIHTTPRequest.m; sourceTree = "<group>"; };
+		32C62A861502B12B0025BC1F /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequestConfig.h; path = ASI/ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		32C62A871502B12B0025BC1F /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequestDelegate.h; path = ASI/ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		32C62A881502B12B0025BC1F /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIInputStream.h; path = ASI/ASIInputStream.h; sourceTree = "<group>"; };
+		32C62A891502B12B0025BC1F /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIInputStream.m; path = ASI/ASIInputStream.m; sourceTree = "<group>"; };
+		32C62A8A1502B12B0025BC1F /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASINetworkQueue.h; path = ASI/ASINetworkQueue.h; sourceTree = "<group>"; };
+		32C62A8B1502B12B0025BC1F /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASINetworkQueue.m; path = ASI/ASINetworkQueue.m; sourceTree = "<group>"; };
+		32C62A8C1502B12B0025BC1F /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIProgressDelegate.h; path = ASI/ASIProgressDelegate.h; sourceTree = "<group>"; };
+		32C62A8D1502B12B0025BC1F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ASI/Reachability.h; sourceTree = "<group>"; };
+		32C62A8E1502B12B0025BC1F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ASI/Reachability.m; sourceTree = "<group>"; };
+		32C62A981502B3390025BC1F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		32C62A9A1502B34D0025BC1F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		32C62A9C1502B3570025BC1F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		32C62A9E1502B3680025BC1F /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		32C62AA11502B7A60025BC1F /* GDataXmlNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXmlNode.h; sourceTree = "<group>"; };
+		32C62AA21502B7A60025BC1F /* GDataXmlNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXmlNode.m; sourceTree = "<group>"; };
+		32C62AA41502B9360025BC1F /* GDataXMLElement-Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GDataXMLElement-Extras.h"; sourceTree = "<group>"; };
+		32C62AA51502B9360025BC1F /* GDataXMLElement-Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GDataXMLElement-Extras.m"; sourceTree = "<group>"; };
+		32C62AA71502BDAC0025BC1F /* NSDate+InternetDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+InternetDateTime.h"; sourceTree = "<group>"; };
+		32C62AA81502BDAC0025BC1F /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32C62A311502A61B0025BC1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C62A9F1502B3680025BC1F /* libz.1.2.5.dylib in Frameworks */,
+				32C62A9D1502B3570025BC1F /* MobileCoreServices.framework in Frameworks */,
+				32C62A9B1502B34D0025BC1F /* SystemConfiguration.framework in Frameworks */,
+				32C62A991502B3390025BC1F /* CFNetwork.framework in Frameworks */,
+				32C62A391502A61B0025BC1F /* UIKit.framework in Frameworks */,
+				32C62A3B1502A61B0025BC1F /* Foundation.framework in Frameworks */,
+				32C62A3D1502A61B0025BC1F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C62A571502A61C0025BC1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C62A5D1502A61C0025BC1F /* SenTestingKit.framework in Frameworks */,
+				32C62A5E1502A61C0025BC1F /* UIKit.framework in Frameworks */,
+				32C62A5F1502A61C0025BC1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32C62A291502A61B0025BC1F = {
+			isa = PBXGroup;
+			children = (
+				32B7E95B15056DEF00589599 /* einschlafen-podcast_logo-72px.png */,
+				32B7E95915056DC000589599 /* einschlafen-podcast_logo-114px.png */,
+				32B7E95615056DBA00589599 /* einschlafen-podcast_logo-57px.png */,
+				32C62A9E1502B3680025BC1F /* libz.1.2.5.dylib */,
+				32C62A9C1502B3570025BC1F /* MobileCoreServices.framework */,
+				32C62A9A1502B34D0025BC1F /* SystemConfiguration.framework */,
+				32C62A981502B3390025BC1F /* CFNetwork.framework */,
+				32C62A3E1502A61B0025BC1F /* EinschlafenPodcastApp */,
+				32C62A621502A61C0025BC1F /* EinschlafenPodcastAppTests */,
+				32C62A371502A61B0025BC1F /* Frameworks */,
+				32C62A351502A61B0025BC1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32C62A351502A61B0025BC1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32C62A341502A61B0025BC1F /* EinschlafenPodcastApp.app */,
+				32C62A5B1502A61C0025BC1F /* EinschlafenPodcastAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C62A371502A61B0025BC1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32C62A381502A61B0025BC1F /* UIKit.framework */,
+				32C62A3A1502A61B0025BC1F /* Foundation.framework */,
+				32C62A3C1502A61B0025BC1F /* CoreGraphics.framework */,
+				32C62A5C1502A61C0025BC1F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32C62A3E1502A61B0025BC1F /* EinschlafenPodcastApp */ = {
+			isa = PBXGroup;
+			children = (
+				32C62AA71502BDAC0025BC1F /* NSDate+InternetDateTime.h */,
+				32C62AA81502BDAC0025BC1F /* NSDate+InternetDateTime.m */,
+				32C62AA01502B7A60025BC1F /* GDataXML */,
+				32C62A771502B0BD0025BC1F /* ASIHttpRequest */,
+				32C62A761502AEFA0025BC1F /* Model */,
+				32C62A471502A61C0025BC1F /* EPAppDelegate.h */,
+				32C62A481502A61C0025BC1F /* EPAppDelegate.m */,
+				32C62A4A1502A61C0025BC1F /* MainStoryboard_iPhone.storyboard */,
+				32C62A4D1502A61C0025BC1F /* MainStoryboard_iPad.storyboard */,
+				32C62A501502A61C0025BC1F /* EPMasterViewController.h */,
+				32C62A511502A61C0025BC1F /* EPMasterViewController.m */,
+				32C62A531502A61C0025BC1F /* EPDetailViewController.h */,
+				32C62A541502A61C0025BC1F /* EPDetailViewController.m */,
+				32C62A3F1502A61C0025BC1F /* Supporting Files */,
+			);
+			path = EinschlafenPodcastApp;
+			sourceTree = "<group>";
+		};
+		32C62A3F1502A61C0025BC1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32C62A401502A61C0025BC1F /* EinschlafenPodcastApp-Info.plist */,
+				32C62A411502A61C0025BC1F /* InfoPlist.strings */,
+				32C62A441502A61C0025BC1F /* main.m */,
+				32C62A461502A61C0025BC1F /* EinschlafenPodcastApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32C62A621502A61C0025BC1F /* EinschlafenPodcastAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				32C62A681502A61C0025BC1F /* EinschlafenPodcastAppTests.h */,
+				32C62A691502A61C0025BC1F /* EinschlafenPodcastAppTests.m */,
+				32C62A631502A61C0025BC1F /* Supporting Files */,
+			);
+			path = EinschlafenPodcastAppTests;
+			sourceTree = "<group>";
+		};
+		32C62A631502A61C0025BC1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32C62A641502A61C0025BC1F /* EinschlafenPodcastAppTests-Info.plist */,
+				32C62A651502A61C0025BC1F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32C62A761502AEFA0025BC1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32C62A731502A6720025BC1F /* RSSEntry.h */,
+				32C62A741502A6720025BC1F /* RSSEntry.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		32C62A771502B0BD0025BC1F /* ASIHttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				32C62A791502B12B0025BC1F /* ASIAuthenticationDialog.h */,
+				32C62A7A1502B12B0025BC1F /* ASIAuthenticationDialog.m */,
+				32C62A7B1502B12B0025BC1F /* ASICacheDelegate.h */,
+				32C62A7C1502B12B0025BC1F /* ASIDataCompressor.h */,
+				32C62A7D1502B12B0025BC1F /* ASIDataCompressor.m */,
+				32C62A7E1502B12B0025BC1F /* ASIDataDecompressor.h */,
+				32C62A7F1502B12B0025BC1F /* ASIDataDecompressor.m */,
+				32C62A801502B12B0025BC1F /* ASIDownloadCache.h */,
+				32C62A811502B12B0025BC1F /* ASIDownloadCache.m */,
+				32C62A821502B12B0025BC1F /* ASIFormDataRequest.h */,
+				32C62A831502B12B0025BC1F /* ASIFormDataRequest.m */,
+				32C62A841502B12B0025BC1F /* ASIHTTPRequest.h */,
+				32C62A851502B12B0025BC1F /* ASIHTTPRequest.m */,
+				32C62A861502B12B0025BC1F /* ASIHTTPRequestConfig.h */,
+				32C62A871502B12B0025BC1F /* ASIHTTPRequestDelegate.h */,
+				32C62A881502B12B0025BC1F /* ASIInputStream.h */,
+				32C62A891502B12B0025BC1F /* ASIInputStream.m */,
+				32C62A8A1502B12B0025BC1F /* ASINetworkQueue.h */,
+				32C62A8B1502B12B0025BC1F /* ASINetworkQueue.m */,
+				32C62A8C1502B12B0025BC1F /* ASIProgressDelegate.h */,
+				32C62A8D1502B12B0025BC1F /* Reachability.h */,
+				32C62A8E1502B12B0025BC1F /* Reachability.m */,
+			);
+			name = ASIHttpRequest;
+			sourceTree = "<group>";
+		};
+		32C62AA01502B7A60025BC1F /* GDataXML */ = {
+			isa = PBXGroup;
+			children = (
+				32C62AA11502B7A60025BC1F /* GDataXmlNode.h */,
+				32C62AA21502B7A60025BC1F /* GDataXmlNode.m */,
+				32C62AA41502B9360025BC1F /* GDataXMLElement-Extras.h */,
+				32C62AA51502B9360025BC1F /* GDataXMLElement-Extras.m */,
+			);
+			path = GDataXML;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32C62A331502A61B0025BC1F /* EinschlafenPodcastApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C62A6D1502A61C0025BC1F /* Build configuration list for PBXNativeTarget "EinschlafenPodcastApp" */;
+			buildPhases = (
+				32C62A301502A61B0025BC1F /* Sources */,
+				32C62A311502A61B0025BC1F /* Frameworks */,
+				32C62A321502A61B0025BC1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EinschlafenPodcastApp;
+			productName = EinschlafenPodcastApp;
+			productReference = 32C62A341502A61B0025BC1F /* EinschlafenPodcastApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32C62A5A1502A61C0025BC1F /* EinschlafenPodcastAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C62A701502A61C0025BC1F /* Build configuration list for PBXNativeTarget "EinschlafenPodcastAppTests" */;
+			buildPhases = (
+				32C62A561502A61C0025BC1F /* Sources */,
+				32C62A571502A61C0025BC1F /* Frameworks */,
+				32C62A581502A61C0025BC1F /* Resources */,
+				32C62A591502A61C0025BC1F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32C62A611502A61C0025BC1F /* PBXTargetDependency */,
+			);
+			name = EinschlafenPodcastAppTests;
+			productName = EinschlafenPodcastAppTests;
+			productReference = 32C62A5B1502A61C0025BC1F /* EinschlafenPodcastAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32C62A2B1502A61B0025BC1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "CoreMedia AG";
+			};
+			buildConfigurationList = 32C62A2E1502A61B0025BC1F /* Build configuration list for PBXProject "Einschlafen Podcast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32C62A291502A61B0025BC1F;
+			productRefGroup = 32C62A351502A61B0025BC1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32C62A331502A61B0025BC1F /* EinschlafenPodcastApp */,
+				32C62A5A1502A61C0025BC1F /* EinschlafenPodcastAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32C62A321502A61B0025BC1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C62A431502A61C0025BC1F /* InfoPlist.strings in Resources */,
+				32C62A4C1502A61C0025BC1F /* MainStoryboard_iPhone.storyboard in Resources */,
+				32C62A4F1502A61C0025BC1F /* MainStoryboard_iPad.storyboard in Resources */,
+				32B7E95715056DBA00589599 /* einschlafen-podcast_logo-57px.png in Resources */,
+				32B7E95A15056DC000589599 /* einschlafen-podcast_logo-114px.png in Resources */,
+				32B7E95C15056DEF00589599 /* einschlafen-podcast_logo-72px.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C62A581502A61C0025BC1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C62A671502A61C0025BC1F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32C62A591502A61C0025BC1F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32C62A301502A61B0025BC1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C62A451502A61C0025BC1F /* main.m in Sources */,
+				32C62A491502A61C0025BC1F /* EPAppDelegate.m in Sources */,
+				32C62A521502A61C0025BC1F /* EPMasterViewController.m in Sources */,
+				32C62A551502A61C0025BC1F /* EPDetailViewController.m in Sources */,
+				32C62A751502A6720025BC1F /* RSSEntry.m in Sources */,
+				32C62A8F1502B12B0025BC1F /* ASIAuthenticationDialog.m in Sources */,
+				32C62A901502B12B0025BC1F /* ASIDataCompressor.m in Sources */,
+				32C62A911502B12B0025BC1F /* ASIDataDecompressor.m in Sources */,
+				32C62A921502B12B0025BC1F /* ASIDownloadCache.m in Sources */,
+				32C62A931502B12B0025BC1F /* ASIFormDataRequest.m in Sources */,
+				32C62A941502B12B0025BC1F /* ASIHTTPRequest.m in Sources */,
+				32C62A951502B12B0025BC1F /* ASIInputStream.m in Sources */,
+				32C62A961502B12B0025BC1F /* ASINetworkQueue.m in Sources */,
+				32C62A971502B12B0025BC1F /* Reachability.m in Sources */,
+				32C62AA31502B7A60025BC1F /* GDataXmlNode.m in Sources */,
+				32C62AA61502B9360025BC1F /* GDataXMLElement-Extras.m in Sources */,
+				32C62AA91502BDAC0025BC1F /* NSDate+InternetDateTime.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C62A561502A61C0025BC1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C62A6A1502A61C0025BC1F /* EinschlafenPodcastAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32C62A611502A61C0025BC1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32C62A331502A61B0025BC1F /* EinschlafenPodcastApp */;
+			targetProxy = 32C62A601502A61C0025BC1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32C62A411502A61C0025BC1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32C62A421502A61C0025BC1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		32C62A4A1502A61C0025BC1F /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32C62A4B1502A61C0025BC1F /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		32C62A4D1502A61C0025BC1F /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32C62A4E1502A61C0025BC1F /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		32C62A651502A61C0025BC1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32C62A661502A61C0025BC1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32C62A6B1502A61C0025BC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32C62A6C1502A61C0025BC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32C62A6E1502A61C0025BC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EinschlafenPodcastApp/EinschlafenPodcastApp-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
+				INFOPLIST_FILE = "EinschlafenPodcastApp/EinschlafenPodcastApp-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		32C62A6F1502A61C0025BC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EinschlafenPodcastApp/EinschlafenPodcastApp-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
+				INFOPLIST_FILE = "EinschlafenPodcastApp/EinschlafenPodcastApp-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		32C62A711502A61C0025BC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EinschlafenPodcastApp.app/EinschlafenPodcastApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EinschlafenPodcastApp/EinschlafenPodcastApp-Prefix.pch";
+				INFOPLIST_FILE = "EinschlafenPodcastAppTests/EinschlafenPodcastAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		32C62A721502A61C0025BC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EinschlafenPodcastApp.app/EinschlafenPodcastApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EinschlafenPodcastApp/EinschlafenPodcastApp-Prefix.pch";
+				INFOPLIST_FILE = "EinschlafenPodcastAppTests/EinschlafenPodcastAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32C62A2E1502A61B0025BC1F /* Build configuration list for PBXProject "Einschlafen Podcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C62A6B1502A61C0025BC1F /* Debug */,
+				32C62A6C1502A61C0025BC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C62A6D1502A61C0025BC1F /* Build configuration list for PBXNativeTarget "EinschlafenPodcastApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C62A6E1502A61C0025BC1F /* Debug */,
+				32C62A6F1502A61C0025BC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C62A701502A61C0025BC1F /* Build configuration list for PBXNativeTarget "EinschlafenPodcastAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C62A711502A61C0025BC1F /* Debug */,
+				32C62A721502A61C0025BC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32C62A2B1502A61B0025BC1F /* Project object */;
+}

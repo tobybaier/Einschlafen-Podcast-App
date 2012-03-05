@@ -134,6 +134,7 @@
         self.detailViewController = [[EPDetailViewController alloc] autorelease];
     }
     _detailViewController.entry = entry;
+    _detailViewController.detailDescriptionLabel.text = @"Testtest";
     [self.navigationController pushViewController:_detailViewController animated:YES];
     
 }
